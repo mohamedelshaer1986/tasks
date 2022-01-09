@@ -1,10 +1,13 @@
 * {
   padding: 0;
   margin: 0;
+
 }
+html{scroll-behavior: smooth;}
 nav {
   background-color: black;
   height: 50px;
+  position: fixed; ;top: 0; width: 100%;
 }
 nav div {
   display: inline-block;
@@ -52,9 +55,12 @@ hr {
 .text h1,
 p {
   margin-bottom: 10px;
-  margin-left: 0px;
+  
   padding-bottom: 0;
+  color: white;
+  font-size: large;text-align: left;
 }
+
 h1,
 p {
   font-size: xx-large;
@@ -142,7 +148,6 @@ label{width:200px; text-align: center;border:5px solid transparent ; background-
 i {
   font-family: myfont;
   font-size: 40px;
-  margin-left: 50px;
   text-align: center;
   color: rgb(41, 39, 39);
 }
@@ -296,7 +301,7 @@ footer p {
 }
 .cont7 {
   width: 80%;
-margin: auto;
+margin-left:1%;
 }
 .card {
   display: inline-block;
@@ -352,3 +357,6 @@ margin: auto;
 .form2 input{ width:45% ; display: inline-block;padding-bottom: 20px;border: 0px; border-bottom: 4px solid darkgray;margin-left: 40px;}
 .mes{float: right; height: 99px;margin-bottom: 50px;margin-right: 20px;}
 #btn10{margin-left:43%  ; margin-bottom: 50px; width:135px ;height: 50px;color: white; background-color: darkorange;border: 4px solid darkorange;}
+.btn11{width: 10px;height: 10px; ;position: fixed;bottom: 10px;right: 10px;}
+.fe{color: black;}
+#btn12{position: fixed;bottom: 10px;right: 10px; color: black;}
