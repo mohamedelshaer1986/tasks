@@ -29,6 +29,7 @@ div h1 {font-size: xx-large;
 .overlay {
   width: 100%;
   height: 100%;
+  background-color: #000000b5;
 }
 .s-image {
   background-image: url(../image/wep2.jpg);
