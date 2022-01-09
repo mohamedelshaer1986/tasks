@@ -19,7 +19,7 @@ li {
   display: inline-block;
   margin-right: 25px;
 }
-div h1 {
+div h1 {font-size: xx-large;
   margin-left: 60px;
   margin-top: 10px;
 }
@@ -56,7 +56,7 @@ p {
 }
 h1,
 p {
-  font-size: 20px;
+  font-size: xx-large;
   color: rgb(15, 15, 15);
 }
 .text2 {
@@ -112,9 +112,10 @@ label{width:200px; text-align: center;border:5px solid transparent ; background-
   border: 0;
 }
 .btn1 {
-  width: 299px;
+  width: 300px;
   background-color: rgb(221, 131, 12);
-  margin-top: 0;
+  margin-top: 15px;
+
 }
 .la {
   text-align: center;
@@ -135,14 +136,14 @@ label{width:200px; text-align: center;border:5px solid transparent ; background-
 }
 @font-face {
   font-family: myfont;
-  src: url(/font/fa-brands-400.ttf);
+  src: url(../font/fa-brands-400.ttf);
 }
 i {
   font-family: myfont;
   font-size: 40px;
   margin-left: 50px;
   text-align: center;
-  color: rgb(235, 210, 210);
+  color: rgb(41, 39, 39);
 }
 .icon {
   width: 100%;
@@ -237,7 +238,7 @@ end of css section 2 thans god*/
 }
 @font-face {
   font-family: myfont1;
-  src: url(/font/LoveLight-Regular.ttf);
+  src: url(../font/LoveLight-Regular.ttf);
 }
 h1.h5 {
   text-align: center;
@@ -294,7 +295,7 @@ footer p {
 }
 .cont7 {
   width: 80%;
-  margin-left: 100px;
+margin: auto;
 }
 .card {
   display: inline-block;
@@ -332,7 +333,7 @@ footer p {
 /* end of section thinks i sould work card 1 property sme s card 3  */
 @font-face {
   font-family: myfont2;
-  src: url(/font/Amiri-Regular.ttf);
+  src: url(../font/Amiri-Regular.ttf);
 }
 .p7{  font-size: 100px; font-family: myfont2;text-align: center;}
 .hr7 {color: darkorange;background-color: darkorange;}
@@ -340,8 +341,13 @@ footer p {
 .p7{font-size: small; }
 .card2{width: 30%;height: 300px;display: inline-block;}
 .img7{border-radius: 50%;}
-.p7{background-color: dimgray;}
+.p7{background-color: dimgray;border-radius: 5px;height: 150px;width:auto;}
 .p8{background-color: transparent;font-size: 60px; font-family: myfon2;}
 .p9{font-size: 60px;}
 .p10{font-size: small;}
 .hr9{margin-left: 50%;}
+
+.form2{width: 100%;height: 110px; display: block; margin-left: 0px;border: 0px;}
+.form2 input{ width:45% ; display: inline-block;padding-bottom: 20px;border: 0px; border-bottom: 4px solid darkgray;margin-left: 40px;}
+.mes{float: right; height: 99px;margin-bottom: 50px;margin-right: 20px;}
+#btn10{margin-left:43%  ; margin-bottom: 50px; width:135px ;height: 50px;color: white; background-color: darkorange;border: 4px solid darkorange;}
